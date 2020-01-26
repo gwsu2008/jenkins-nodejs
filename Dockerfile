@@ -1,5 +1,5 @@
 FROM node:12.14.1
-MAINTAINER Guang Su <gwsu2008@gmail.com>
+LABEL MAINTAINER="Guang Su <gwsu2008@gmail.com>"
 
 # Make sure the package repository is up to date.
 RUN apt-get update && \
